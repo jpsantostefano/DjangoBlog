@@ -57,6 +57,13 @@ INSTALLED_APPS = [
     'blog',
 ]
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dccb0yehp',
+    'API_KEY': '648413156757531,
+    'API_SECRET': 'Zf5ZLL6qEOJ7edtE5-ybtkx0edc'
+}
+
+
 AUTHENTICATION_BACKENDS = [
     # ... other authentication backends ...
     'allauth.account.auth_backends.AuthenticationBackend',
